@@ -245,20 +245,29 @@ font-family: 'Roboto Condensed', sans-serif;
   align-items: center;
     justify-content: space-around;
     flex-direction: column;
+
 }
 
 /* Hide the images by default */
 .mySlides {
+    padding-top: 65px;
+    padding-bottom: 10px;
     max-width: 900px;
     justify-content: space-between;
     
     display: none;
 }
+.button_carusel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
 /* Next & previous buttons */
 .prev, .next {
+    display: inline-flex;
   cursor: pointer;
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   width: auto;
   margin-top: -22px;
