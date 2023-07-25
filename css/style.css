@@ -29,14 +29,11 @@ font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 
-.text-h3{
-    
-}
 
 .text-p{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     font-style: normal;
     line-height: normal;
@@ -342,4 +339,71 @@ font-family: 'Roboto Condensed', sans-serif;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.advantages {
+    width: auto;
+    height: 800px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    background: #FFFDF1;
+
+}
+.advantage__title {
+    display: flex;
+    justify-content: center;
+    color:#BF9230
+
+}
+
+.advantage__general {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,180px);
+    justify-content: space-around;
+    gap: 58px 50px;
+    justify-content: center;
+}
+
+.advantage__block {
+    display: flex;
+    width: 300px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(113, 147, 251, 0.50);
+        vertical-align: text-bottom;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.advantage__icon {
+    position: relative;
+    top:20px;
+    left:100px;
+    height: 90px;
+
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; */
+    
+}
+
+.advantage__text {
+    max-width: 215px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 15px;
+
+    /* font-size: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;  */
+    
 }
