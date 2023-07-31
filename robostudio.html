@@ -8,30 +8,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/style.css">
     
 
     <title>ROBOSTUDIO</title>
 </head>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="contacts">
-                <div class="contacts__name"><p class="text-p">robostudio</p></div>
-                <div class="contacts__link"><p class="text-p">Телефон: +7 (960) 168-26-05, +7 (910) 797-68-46 <a href="https://vk.com/robostudio_nn"><i class="icon-vkontakte"></i></a>
-                    <a href="https://www.instagram.com/robostudio_nn/"><i class="icon-instagram"></i></a></p></div>
+                <div class="header_left">
+                    <div class="logo"> <a href="robostudio.html"><img src="img/logo.svg" alt="Логотип"></a></div>
+               
+                    <div class="contacts__name"><p class="text-header_left">robostudio</p></div>
+                </div>
+                
+                <div class="contacts__link">
+                    <div class="contacts__icon"><img src="img/icons/phone.svg" width="40px"> </div>
+                    <p class="text-header"> +7 (960) 168-26-05</p>
+                    <div class="contacts__icon">
+                        <a href="https://vk.com/robostudio_nn"><img src="img/icons/vkontacte.svg" class="icon"width="40px"></a>
+                        <a href="https://www.instagram.com/robostudio_nn/"><img src="img/icons/inst.svg" class="icon"width="30px"></a>
+                    <a href="https://wa.me/79601682605?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%20%D0%BE..."><img src="img/icons/whatsapp.svg" class="icon" width="20px"></a>
+                    </div>
+                        
+                    
+                </div>
+                    
             </div>
 
             <div class="menu">
-                <div class="logo">
-                    <a href="robostudio.html"><img src="img/logo.svg" alt="Логотип"></a>
-                </div>
                 <div class="links">
-                  <a href="robostudio.html"><p class="text-p">робостудия</p></a>
-                  <a href="english.html"><p class="text-p">Английский язык</p></a>
-                  <a href="razvivashki.html"><p class="text-p">Логопед и развивашки</p></a>
-                  <a href="yasli.html"><p class="text-p">ясли</p></a>
+                  <a href="robostudio.html"><p class="text-menu">робостудия</p></a>
+                  <a href="english.html"><p class="text-menu">Английский язык</p></a>
+                  <a href="razvivashki.html"><p class="text-menu">Логопед и развивашки</p></a>
+                  <a href="yasli.html"><p class="text-menu">ясли</p></a>
                 </div>
               </div>
 
@@ -42,12 +52,18 @@
                 <div class="first_screen__text"><p class="text-p">
                     Приглашаем на пробное занятие детей старше 5 лет
                 </p></div>
-                <div class="first_screen__number"><p class="text-p">
-                    ПОзвоните нам: 
-                    +7 (960) 168-26-05 
-                    +7 (910) 797-68-46
-                </p></div>
-                
+                <div class="first_screen__contacts">
+                    <div class="first_screen__number"><p class="text-p">
+                        <img src="img/icons/phone_fs.svg" width="20px"> Позвоните нам 
+                        +7 (960) 168-26-05 <br>
+                    </p></div>
+                    <div class="first_screen__write"><p class="text-p">
+                        <img src="img/icons/mesage.svg" width="20px"> Или напишите 
+                        <a href="viber://chat?number=%2B79601682605" class="viber">Viber</a><br>
+                        <a href="https://wa.me/79601682605?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%20%D0%BE..." class="whatsapp">whatsapp</a>
+                    </p></div>
+                </div>
+                    
                 </div>
 
             </div>
@@ -55,26 +71,26 @@
     </header>
 
     
-    <div class="about_us_general">
+    <div class="about_us_general" id="about_us">
         <div class="about_us">
             <div class="about_us__title">
             <div class="about_us__title_und"><h1 class="text-h1">кто мы?</h1></div>
-            <div class="about_us__title_ar"><h2 class="text-h2">о нас</h2></div>
+            <div class="about_us__title_ar"><p class="text-about_us">о нас</p></div>
             </div>
         </div>
         <div class="about_us">    
             <div class="about_us__photo"></div>
             <div class="about_us__text">
                 <div class="AU__text_title"><h2 class="text-h2">Что такое ROBOSTUDIO?</h2></div>
-                <div class="AU__text"><p class="text-p">Это студия робототехники для детей старше 5 лет.
+                <div class="AU__text"><p class="text-AU">Это студия робототехники для детей старше 5 лет.
                     В мастерской дети в игровой форме изучают строение, принцип работы различных механизмов, учатся программированию в специальной программе, а затем применяют полученные знания на практике.</p></div>
                     
                 <div class="AU__text_title"><h2 class="text-h2">Чему мы учим?</h2></div>
-                <div class="AU__text"><p class="text-p">Мы обучаем детей по 5 перспективным направлениям, следуя авторским методиками преподавания.
+                <div class="AU__text"><p class="text-AU">Мы обучаем детей по 5 перспективным направлениям, следуя авторским методиками преподавания.
                     С нами дети изучают основы роботопрограмирования и роботоконструирования на базе конструкторов Лего (WeDo, EV3), в среде программирования SCRATCH.</p></div>
                 
                 <div class="AU__text_title"><h2 class="text-h2">Как проходит обчучение?</h2></div>
-                <div class="AU__text"><p class="text-p">Ребята распределяются по классам до 10 человек. Для каждого нового ученика группа подбирается индивидуально, в зависимости от возраста, навыков, интересов и свободного времени. На каждом занятии дети выполняют веселое и интересное практическое задание.</p></div>
+                <div class="AU__text"><p class="text-AU">Ребята распределяются по классам до 10 человек. Для каждого нового ученика группа подбирается индивидуально, в зависимости от возраста, навыков, интересов и свободного времени. На каждом занятии дети выполняют веселое и интересное практическое задание.</p></div>
                 
             </div>
         </div>
@@ -145,7 +161,7 @@ function showSlides(n) {
 }
     </script>
 
-<div class="advantages">
+<div class="advantages" id="advantages">
     <div class="advantage__title"><h2 class="text-h2">наши приемущества</h2></div>
    
     <div class="advantage__general">
@@ -192,100 +208,205 @@ function showSlides(n) {
 
 </div>
 
-<div class="lesson__block">
+
+<div class="lesson__block" id="lesson">
     <div class="lesson__title"><h2 class="text-h2">структура занятий</h2></div>
+
+    <!-- <div class="lessons__struct">
+        <div class="lessons__block">
+            <div class="lessons_text_title">Теоретическая часть</div>
+        <div class="lessons__text">В начале урока педагог объясняет теорию, используя интерактивные методы, такие как рисунки на доске и презентации. Дети активно участвуют в изучении темы и игровым образом осваивают новые термины. Это поможет вашему ребенку легко усвоить теоретический материал и создаст прочную основу для будущего изучения естественных наук, таких как математика, физика и химия.</div>
+        </div>
+        
+        <img src="img/icons/arrow_down.svg" alt="стрелка вниз" class="arrow_down">
+        <div class="lessons__block">
+            <div class="lessons_text_title">Сборка механической модели</div>
+            <div class="lessons__text">Следующая часть урока включает самостоятельную сборку подвижной механической модели из конструктора детьми. Дети следуют инструкции, педагог всегда готов помочь и ответить на вопросы. Ребенку выдается индивидуальный набор материалов, либо он выдается на команду, если предполагается работа в команде. Участие в таких занятиях поможет вашему ребенку развить мелкую моторику, научиться выполнять креативные задания самостоятельно, освоить основы механики и конструирования, а также развить пространственное мышление. </div>
+         </div>
+        <img src="img/icons/arrow_down.svg" alt="стрелка вниз" class="arrow_down">
+        <div class="lessons__block">
+            <div class="lessons_text_title">Программирование</div>
+            <div class="lessons__text">Ребенок и преподаватель используют адаптированный язык программирования для создания алгоритмов, которые "оживляют" модели.
+                Ребенок программирует на своем ноутбуке с помощью опытного преподавателя, который знакомит его с основами алгоритмов и логики простым и понятным способом.
+                Этот урок поможет вашему ребенку понять, что компьютер - это полезный инструмент для воплощения своих идей. Изучение программирования с раннего возраста поможет ему построить успешную карьеру в IT.
+            </div>
+        </div>
+        <img src="img/icons/arrow_down.svg" alt="стрелка вниз" class="arrow_down">
+        <div class="lessons__block">
+            <div class="lessons_text_title">Запуск модели</div>
+            <div class="lessons__text">Дети используют компьютер для запуска модели с моторами, колесами, датчиками и шестеренками. Уроки включают сбалансированную образовательную программу, где каждый раз ребенок изучает новые механизмы и физические явления. Результаты работы видны детям, и они могут проверить свои теоретические знания на практике. Такой подход вызывает яркие эмоции, развивает любовь к естественным наукам и закрепляет знания лучше, чем теоретические занятия.</div>
+        </div>
+        <img src="img/icons/arrow_down.svg" alt="стрелка вниз" class="arrow_down">
+        <div class="lessons__block">
+            <div class="lessons_text_title">Анализ результата</div>
+            <div class="lessons__text">После включения механизма, дети и учитель обсуждают результаты, анализируют ошибки и задают друг другу вопросы. В нашей школе особое внимание уделяется выявлению ошибок и развитию правильного отношения к ним. Ваш ребенок учится работать в команде, не боится ошибок, учится анализировать и исправлять их.</div>
+        </div>
+        <img src="img/icons/arrow_down.svg" alt="стрелка вниз" class="arrow_down">
+        <div class="lessons__block">
+            <div class="lessons_text_title">Презентация результатов</div>
+            <div class="lessons__text">В конце урока дети презентуют свои проекты родителям. Этот процесс помогает ребенку почувствовать себя успешным. Укрепляет эмоциональную связь между вами и вашим ребенком.</div>
+        </div>
+        <img src="img/icons/arrow_down.svg" alt="стрелка вниз" class="arrow_down">
+        <div class="lessons__block">
+            <div class="lessons_text_title">Разборка моделей</div>
+            <div class="lessons__text">В конце урока, все ученики разбирают собранные модели и убирают свои рабочие места под руководством преподавателя. Этому уделяется особое внимание, так как это неотъемлемая часть урока, которая помогает детям развивать навыки по уходу за своим окружением. Таким образом, они начинают осознавать важность чистоты и уважать правила, установленные для поддержания порядка.
+            </div>
+        </div>
+        <img src="img/icons/check.svg" alt="выполнено" class="check">
+    </div> -->
+
+    
+
+    
 </div>
 
-<div class="cours__block">
+
+
+<div class="course__block" id="course__block">
     <div class="course__title"><h2 class="text-h2">Наши курсы</h2></div>
-    <div class="cours__rec">
+    <div class="course__rec">
         <div class="rec__block">
             <div class="course__iconic"></div>
-            <div class="cours__name"><h2 class="text-h2">test</h2></div>
+            <div class="course__name">Lego WeDo</div>
             <nav>
                 <ul  class="course__list">
-                    <li class="course__point"><p class="text-p">test</p></li>
-                    <li class="course__point"><p class="text-p">test</p></li>
-                    <li class="course__point"><p class="text-p">test</p></li>
-                    <li class="course__point"><p class="text-p">test</p></li>
-                    <li class="course__point"><p class="text-p">test</p></li>
+                    <li class="course__point"><p class="text-p">Для детей от 4 до 6 лет</p></li>
+                    <li class="course__point"><p class="text-p">Группы от 8 до 10 человек</p></li>
+                    <li class="course__point"><p class="text-p">Занятие 1 раз в неделю</p></li>
+                    <li class="course__point"><p class="text-p">Длительность занятия 90 минут</p></li>
+                    <li class="course__point"><p class="text-p">Рассчитан на 2 года обучения</p></li>
                 </ul>
             </nav>
-            <div class="course__price"><h2 class="text-h2">test руб</h2></div>
+            <div class="course__price">2000₽/месяц</div>
         </div>
         <div class="rec__block">
             <div class="course__iconic"></div>
-            <div class="cours__name"><h2 class="text-h2">test</h2></div>
+            <div class="course__name">Lego WeDo 2.0</div>
             <nav>
                 <ul class="course__list">
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
+                    <li class="course__point"><p class="text-p">Для детей от 6 лет</p></li>
+                    <li class="course__point"><p class="text-p">Группы от 8 до 10 человек</p></li>
+                    <li class="course__point"><p class="text-p">Занятие 1 раз в неделю</p></li>
+                    <li class="course__point"><p class="text-p">Длительность занятия 120 минут</p></li>
+                    <li class="course__point"><p class="text-p">Рассчитан на 1 год обучения</p></li>
                 </ul>
             </nav>
-            <div class="course__price"><h2 class="text-h2">test руб</h2></div>
+            <div class="course__price">2200₽/месяц</div>
         </div>
         <div class="rec__block">
             <div class="course__iconic"></div>
-            <div class="cours__name"><h2 class="text-h2">test</h2></div>
+            <div class="course__name">Технология и физика</div>
             <nav>
                 <ul class="course__list">
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
+                    <li class="course__point"><p class="text-p">Для детей от 8 лет</p></li>
+                    <li class="course__point"><p class="text-p">Группы от 8 до 10 человек</p></li>
+                    <li class="course__point"><p class="text-p">Занятие 1 раз в неделю</p></li>
+                    <li class="course__point"><p class="text-p">Длительность занятия 120 минут</p></li>
+                    <li class="course__point"><p class="text-p">Рассчитан на 1 год обучения</p></li>
                 </ul>
             </nav>
-            <div class="course__price"><h2 class="text-h2">test руб</h2></div>
+            <div class="course__price">2200₽/месяц</div>
         </div>
         <div class="rec__block">
             <div class="course__iconic"></div>
-            <div class="cours__name"><h2 class="text-h2">test</h2></div>
+            <div class="course__name">Веселые роботы Lego EV3</div>
             <nav>
-                <ul>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
+                <ul class="course__list">
+                    <li class="course__point"><p class="text-p">Для детей от 8 до 9 лет</p></li>
+                    <li class="course__point"><p class="text-p">Группы от 8 до 10 человек</p></li>
+                    <li class="course__point"><p class="text-p">Занятие 1 раз в неделю</p></li>
+                    <li class="course__point"><p class="text-p">Длительность занятия 120 минут</p></li>
+                    <li class="course__point"><p class="text-p">Рассчитан на 1 год обучения</p></li>
                 </ul class="course__list">
             </nav>
-            <div class="course__price"><h2 class="text-h2">test руб</h2></div>
+            <div class="course__price">2500₽/месяц</div>
         </div>
         <div class="rec__block">
             <div class="course__iconic"></div>
-            <div class="cours__name"><h2 class="text-h2">test</h2></div>
+            <div class="course__name">Развивающий модуль Lego EV3</div>
             <nav>
                 <ul class="course__list">
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
+                    <li class="course__point"><p class="text-p">Для детей от 10 лет</p></li>
+                    <li class="course__point"><p class="text-p">Группы от 8 до 10 человек</p></li>
+                    <li class="course__point"><p class="text-p">Занятие 1 раз в неделю</p></li>
+                    <li class="course__point"><p class="text-p">Длительность занятия 120 минут</p></li>
+                    <li class="course__point"><p class="text-p">Рассчитан на 1 год обучения</p></li>
                 </ul>
             </nav>
-            <div class="course__price"><h2 class="text-h2">test руб</h2></div>
+            <div class="course__price">2500₽/месяц</div>
         </div>
         <div class="rec__block">
             <div class="course__iconic"></div>
-            <div class="cours__name"><h2 class="text-h2">test</h2></div>
+            <div class="course__name">Проектный модуль Lego EV3</div>
             <nav>
                 <ul class="course__list">
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
-                    <li class="course__point"><p class="text-p"></p></li>
+                    <li class="course__point"><p class="text-p">Для детей от 8 лет</p></li>
+                    <li class="course__point"><p class="text-p">Группы от 8 до 10 человек</p></li>
+                    <li class="course__point"><p class="text-p">Занятие 1 раз в неделю</p></li>
+                    <li class="course__point"><p class="text-p">Длительность занятия 120 минут</p></li>
+                    <li class="course__point"><p class="text-p">Рассчитан на 1 год обучения</p></li>
                 </ul>
             </nav>
-            <div class="course__price"><h2 class="text-h2">test руб</h2></div>
+            <div class="course__price">2500₽/месяц</div>
             
         </div>
     </div>
+    <div class="ps">*месяц считается как 4 занятия. В зависимости от количества занятий цена может отличаться</div>
 </div>
-<!-- <iframe src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=true&amp;um=constructor%3A42fcfe93e6414b9797326ea8f4bb7dfd95c0da6481f09d57a896daf2917a8ead" allowfullscreen="true" style="display: block;" width="500px" height="500px" frameborder="0"></iframe> -->
+
+<div class="schedule" id="schedule">
+    <div class="schedule__title"><h2 class="text-h2">расписание</h2></div>
+    <div class="schedule__block">
+        <div class="schedule__rayevskogo">
+            <div class="rayevskogo__title"><h2 class="text-h2">ул. Раевского, 17, ROBOSTUDIO</h2></div>
+            
+        </div>
+        <div class="schedule__koshevskogo">
+            <div class="koshevskogo__title"><h2 class="text-h2">пр. Октября, 19, библиотека им.О.Кошевого</h2></div>
+    
+        </div>
+    </div>
+</div>
+
+<div class="contacts__block" id="contacts__block">
+    <div class="contacts__title"><h2 class="text-h2">контакты</h2></div>
+    <div class="contacts__rec">
+        <div class="contacts__text">
+            <div class="text__title">Адреса:</div>
+            <div class="text__text">г. Нижний Новгород<br>пр. Октября, 19, Библиотека им. Кошевого<br>ул. Раевского, 17, ROBOSTUDIO</div>
+            <div class="text__title">Телефоны для связи:</div>
+            <div class="text__text">+7 (960) 168-26-05 <a href="viber://chat?number=%2B79601682605" class="viber"><img src="img/icons/viber_f.svg" width="25px"></a> <a href="https://wa.me/79601682605?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%20%D0%BE..."><img src="img/icons/whatsapp_f.svg" width="25px"></a> <br><br> Прием звонков: с 9:00 до 20:00 (Пн-Пт)</div>
+        </div>
+        <div class="contactas__map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8ed2463ac84dfd19b0079ba0120d882105152fbf5fcf4e48e828e03c194c5624&amp;source=constructor" width="500" height="600" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    
+   
+    <div class="menu_footer">
+        <a href="robostudio.html"><img src="img/logo.svg" alt="Логотип" width="100px" class="logo_f"></a>
+        <ul >
+            <li class="menu_pounter"><a href="#header">в начало<br><br></a></li>
+            <li class="menu_pounter"><a href="#about_us">о нас</a></li>
+            <li class="menu_pounter"><a href="#advantages">наши приемущества</a></li>
+            <li class="menu_pounter"><a href="#lesson">структура занятий</a></li>
+            <li class="menu_pounter"><a href="#course__block">наши курсы</a></li>
+            <li class="menu_pounter"><a href="#schedule">расписание</a></li>
+            <li class="menu_pounter"><a href="#contacts__block">контакты</a></li>
+        </ul>
+    </div>
+    <div class="social_media__block">
+        
+        <div class="social_media__text"><p class="text-p">Наши социальные сети <a href="https://vk.com/robostudio_nn"><img src="img/icons/vk_f.svg" class="icon_f"></a>
+            <a href="https://www.instagram.com/robostudio_nn/"><img src="img/icons/inst_f.svg" class="icon_f" ></a></p></div>
+        
+    </div>
+
+</div>
+
+
 </body>
 </html>
