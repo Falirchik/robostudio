@@ -16,7 +16,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .text-h1{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 600;
-    font-size: 44px;
+    font-size: 60px;
     text-transform: uppercase;
 }
 
@@ -83,7 +83,14 @@ font-family: 'Roboto Condensed', sans-serif;
     min-height: 800px;
     background-color: #ffffff;
     
+    
 }
+
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  } 
 
 .header_left{
     display: flex;
@@ -132,7 +139,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .icon{
     padding-left: 15px;
     padding-top: 5px;
-    width: 60px;
+    
 }
 
 .menu {
@@ -148,10 +155,10 @@ font-family: 'Roboto Condensed', sans-serif;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 .logo {
-    height: 100px;
-    width: 100px;
+    width: 150px;
     margin-right: auto
     
     
@@ -170,7 +177,7 @@ font-family: 'Roboto Condensed', sans-serif;
     background-color: #12151A;
     background-image:url(../img/first_screen_bg.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center right;
     height: 654px;
 }
 
@@ -190,16 +197,24 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .first_screen__number {
-    
-    max-width: 170px;
-    padding-top: 110px;
+    max-width: 180px;
+    padding-top: 100px;
 
 }
 .first_screen__write {
-    max-width: 150px;
-    padding-top: 110px;
+    max-width: 170px;
+    padding-top: 100px;
     text-decoration: none;
     color: #ffd700;
+}
+
+.text-fs{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: normal;
 }
 
 a:hover {
@@ -208,7 +223,8 @@ a:hover {
 
 .whatsapp,.viber{
     text-decoration: none;
-    color: white;
+    color: #ffd700;
+    ;
 }
 
 .first_screen__contacts{
@@ -244,7 +260,7 @@ a:hover {
 
 .about_us__title_und {
     opacity: 0.4;
-    top: 30px;
+    top: 40px;
     position: relative ;
     color: #E2CB0A;
     justify-items: center;
@@ -252,8 +268,8 @@ a:hover {
 }
 
 .about_us__title_ar {
-    top: 20px;
-    left: 15px;
+    top: 10px;
+    left: 35px;
     position: absolute;
     justify-items: center;
     color:#00103F;
@@ -433,7 +449,7 @@ a:hover {
 
 .advantages {
     width: auto;
-    height: 800px;
+    height: 850px;
     flex-shrink: 0;
     margin: 0 auto;
     background: #FFFDF1;
@@ -442,7 +458,7 @@ a:hover {
 .advantage__title {
     display: flex;
     justify-content: center;
-    color:#BF9230
+    color:#F3DA0B
 
 }
 
@@ -458,7 +474,7 @@ a:hover {
 .advantage__block {
     display: flex;
     width: 300px;
-    height: 180px;
+    height: 200px;
     flex-shrink: 0;
     border-radius: 40px;
     background: rgba(113, 147, 251, 0.50);
@@ -469,9 +485,9 @@ a:hover {
 
 .advantage__icon {
     position: relative;
-    top:20px;
-    left:100px;
-    height: 90px;
+    top:10px;
+    left:80px;
+    width: 90px;
     
 }
 
@@ -482,8 +498,19 @@ a:hover {
     display: flex;
     align-items: flex-end;
     position: relative;
-    top: 15px;
+    /* font-family: 'Oswald', sans-serif; */
+    font-weight: 500;
+    /* top: 15px; */
     
+}
+.text-ad{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: normal;
 }
 
 /* СТРУКТУРА ЗАНЯТИЙ */
@@ -500,22 +527,34 @@ a:hover {
 
 .lesson__block{
     background-color: var(--blue-color);
-    height: 1450px;
+    height: 1750px;
     width: auto;
     
 }
 
+.lessons__row{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lessons__image{
+    
+    align:center;
+    hspace:20px
+}
 .lessons__block{
     width: auto;
 height: auto;
 flex-shrink: 0;
 border-radius: 40px;
-background: #FFF5AE;
 margin: 10px;
 }
 
 .lessons_text_title {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     line-height: normal;
     font-weight: 500;
@@ -526,29 +565,11 @@ margin: 10px;
 .lessons__struct{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 
-}
-.lessons__text {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-style: normal;
-    line-height: normal;
-    max-width: 1000px;
-    color:black
-}
-.arrow_down {
-    height: 30px;
-}
-
-.check {
-    height: 50px;
-    margin-top: 20px;
 }
 
 
@@ -562,18 +583,18 @@ margin: 10px;
 }
 
 .course__title {
-    color:#BF9230;
+    color:#F3DA0B;
     text-align: center;
     padding-top: 20px;
 }
 
 .course__rec {
     display: flex;
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    align-content: center;
 }
 
 .rec__block {
@@ -581,17 +602,17 @@ margin: 10px;
     height: 600px;
     flex-shrink: 0;
     border-radius: 40px;
-background: rgba(113, 147, 251, 0.50);
-/* margin: 5px; */
+    background: rgba(113, 147, 251, 0.50);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 .course__list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.course__iconic {
-    width: 100px;
 }
 
 .course__name {
@@ -603,6 +624,8 @@ background: rgba(113, 147, 251, 0.50);
     font-weight: 500;
     text-transform: uppercase;
     padding-top: 25px;
+    position: relative;
+    top: 20px;
 }
 
 .course__point {
@@ -620,12 +643,14 @@ background: rgba(113, 147, 251, 0.50);
     line-height: normal;
     font-weight: 500;
     text-transform: uppercase;
+    position: relative;
+    
 }
 
 .ps {
     padding-left: 40px;
-    padding-top: 15px;
-    font-size: 15px;
+    padding-top: 25px;
+    font-size: 25px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -684,7 +709,7 @@ flex-shrink: 0;
     width: auto;
 }
 .contacts__title {
-    color:#BF9230;
+    color:#F3DA0B;
     text-align: center;
     padding-top: 20px;
 }
@@ -703,24 +728,25 @@ flex-shrink: 0;
     font-style: normal;
     line-height: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 40px;
     text-transform: uppercase;  
+    color: #F3DA0B
     
 }
 .text__text {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 36px;
     text-transform: uppercase;
     font-style: normal;
     line-height: normal;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.contactas__map {
-    border-radius: 40px;
-}
 
+
+
+/* ПОДВАЛ */
 .footer{
     width: auto;
 height: 195px;
@@ -746,8 +772,8 @@ justify-content: space-between;
     padding-right: 116px;
 }
 .icon_f{
-    height: 28px;
-    padding-left: 10px;
+    
+    margin-left: 10px;
     
     
 }
