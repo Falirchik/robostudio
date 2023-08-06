@@ -1,10 +1,9 @@
 $(function() {
     let header = $('.menu');
-    let mobileTel = $('.header__tel').first(); // сохранем в переменную первый элемент с классом header__tel
     let hederHeight = header.height(); // вычисляем высоту шапки
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1) {
+        if ($(this).scrollTop() >199) {
             header.addClass('header_fixed');
             $('body').css({
                 'paddingTop': hederHeight + 'px' // делаем отступ у body, равный высоте шапки
