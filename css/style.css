@@ -382,6 +382,13 @@ a:hover {
     
 }
 
+@media screen and (max-width:615px){
+  .about_us_general{
+    height: 1560px;
+  }
+    
+}
+
 
 /* КАРУСЕЛЬ */
 .photography{
@@ -795,6 +802,12 @@ a:hover {
         gap: 10px 0px;
     }
 }
+@media screen and (max-width:620px){
+  .advantage__block{
+    width: 250px;
+
+  }
+}
 
 /* СТРУКТУРА ЗАНЯТИЙ */
 
@@ -971,7 +984,7 @@ margin: 10px;
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     position: relative;
     color: #000;
