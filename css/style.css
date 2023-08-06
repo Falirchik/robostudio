@@ -538,8 +538,9 @@ a:hover {
 .carousel__activator:nth-of-type(4):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(4) {
   opacity: 1;
 }
+
 .carousel__activator:nth-of-type(5):checked ~ .carousel__track {
-  transform: translateX(-400%);
+  transform: translateX(-300%);
 }
 .carousel__activator:nth-of-type(5):checked ~ .carousel__slide:nth-of-type(5) {
   transition: opacity 0.5s, transform 0.5s;
@@ -554,6 +555,25 @@ a:hover {
   opacity: 1;
 }
 .carousel__activator:nth-of-type(5):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(5) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(6):checked ~ .carousel__track {
+  transform: translateX(-400%);
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__slide:nth-of-type(6) {
+  transition: opacity 0.5s, transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transform: scale(1);
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__controls:nth-of-type(6) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(6) {
   opacity: 1;
 }
 .carousel__control {
@@ -776,17 +796,6 @@ a:hover {
     }
 }
 
-/* @media screen and (max-width:768px){
-    .advantage__general {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(211fr);
-    }
-    .advantages {
-        height: 2680px;
-    }
-    
-} */
-
 /* СТРУКТУРА ЗАНЯТИЙ */
 
 
@@ -797,9 +806,6 @@ a:hover {
     position: relative;
     z-index: 10;
     
-}
-.lesson__title {
-
 }
 .lessons__arrow{
     position: relative;    
@@ -825,7 +831,7 @@ a:hover {
     align-items: center;
 }
 .lessons__image{
-    align:center;
+    box-align:center;
     position: relative;
 }
 .lessons__block{
