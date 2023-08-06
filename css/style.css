@@ -1062,6 +1062,15 @@ margin: 10px;
     
     
 }
+@media screen and (max-width:705px){
+
+  .schedule__rec{
+    width: 97%;
+    height: 600px;
+  }
+  
+  
+}
 
 /* КОНТАКТЫ */
 .contacts__block {
