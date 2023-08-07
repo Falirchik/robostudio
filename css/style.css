@@ -248,7 +248,7 @@ a:hover {
     ;
 }
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1130px){
     
     .contacts {
         flex-direction: column;
@@ -267,26 +267,39 @@ a:hover {
     
 }
 
-@media screen and (max-width:768px){
-    
-    .text-menu{
-        font-size: 25px;
-    }
-}
-
 @media screen and (max-width: 705px) {
     .contacts{
         height: 270px;
     }
   }
 
-@media screen and (max-width: 510px) {
+  @media screen and (max-width: 554px) {
+    .contacts {
+      height: 305px;
+  }
+  }
+@media screen and (max-width: 511px) {
     nav {
       display: block;
     }
     nav a {
       display: block;
     }
+    .contacts {
+      height: 320px;
+  }
+  }
+  @media screen and (max-width: 461px) {
+
+    .contacts {
+      height: 350px;
+  }
+  }
+  @media screen and (max-width: 418px) {
+
+    .contacts {
+      height: 400px;
+  }
   }
 /* О НАС */
 
@@ -385,6 +398,16 @@ a:hover {
 @media screen and (max-width:615px){
   .about_us_general{
     height: 1560px;
+  }
+    
+}
+@media screen and (max-width:555px){
+  .about_us__photo{
+    width: 400px;
+    height: 500px;
+  }
+  .about_us_general{
+    height: 1450px;
   }
     
 }
@@ -790,22 +813,45 @@ a:hover {
     line-height: normal;
 }
 
-@media screen and (max-width:1280px){
-    .advantage__general {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
-    .advantages {
-        height: 1320px;
-    }
-    .advantage__general{
-        gap: 10px 0px;
-    }
+
+@media screen and (max-width:1080px){
+  .advantage__general{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* gap:20px; */
+  }
+  .advantages{
+    height: 1540px;
+  }
+  .advantage__block{
+    width: 400px;
+  }
 }
+
+@media screen and (max-width:910px){
+  .advantage__block{
+    width: 300px;
+
+  }
+}
+
 @media screen and (max-width:620px){
   .advantage__block{
     width: 250px;
 
+  }
+}
+
+@media screen and (max-width:550px){
+  .advantage__general{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .advantages{
+    height: 2850px;
+  }
+  .advantage__block{
+    height: 250px;
   }
 }
 
@@ -897,6 +943,12 @@ margin: 10px;
         height: 3070px;
     }
     
+}
+@media screen and (max-width:440px){
+  .lesson__block{
+      height: 3570px;
+  }
+  
 }
 
 /* НАШИ КУРСЫ */
@@ -1017,11 +1069,26 @@ margin: 10px;
     .course__rec{
         grid-template-columns: 1fr 1fr;
         gap: 10px 0;
+        
     }
     .course__block{
-        height: 2040px;
+        height: 2080px;
+        
     }
     
+}
+
+@media screen and (max-width:550px){
+  .course__rec{
+      grid-template-columns: 1fr;
+      gap: 10px 0;
+      
+  }
+  .course__block{
+      height: 3900px;
+      
+  }
+  
 }
 
 
@@ -1113,7 +1180,8 @@ margin: 10px;
     font-weight: 500;
     font-size: 40px;
     text-transform: uppercase;  
-    color: #F3DA0B
+    color: #F3DA0B;
+    max-width: 720px;
     
 }
 .text__text {
@@ -1127,9 +1195,17 @@ margin: 10px;
     padding-bottom: 10px;
 }
 
+.contactas__map{
+  width: 700px;
+  height: 600px;
+  margin-right: 20px;
+}
+.contacts__text{
+  width: auto;
+  margin-left: 20px;
+}
 
-
-@media screen and (max-width:1400px){
+@media screen and (max-width:1480px){
     .contacts__rec{
         grid-template-columns: 1fr;
         gap: 10px;
@@ -1137,10 +1213,55 @@ margin: 10px;
     .contacts__block{
         height: 1180px;
     }
+    .contactas__map{
+      width: 800px;
+      padding-left: 20px;
+    }
+    .contacts__text{
+      padding-right: 20px;
+    }
     
     
 }
 
+@media screen and (max-width:800px){
+  .contacts__block{
+    height: 1250px;
+  }
+  .contactas__map{
+    width: 600px;
+    padding-left: 20px;
+  }
+  .contacts__text{
+    width: 600px;
+  }
+}
+
+@media screen and (max-width:650px){
+  .contacts__block{
+    height: 1420px;
+  }
+  .contactas__map{
+    width: 400px;
+    padding-left: 20px;
+  }
+  .contacts__text{
+    width: 400px;
+  }
+}
+@media screen and (max-width:450px){
+
+  .contacts__block{
+    height: 1500px;
+  }
+  .contactas__map{
+    width: 300px;
+    padding-left: 20px;
+  }
+  .contacts__text{
+    width: 300px;
+  }
+}
 
 
 /* ПОДВАЛ */
