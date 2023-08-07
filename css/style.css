@@ -388,28 +388,78 @@ a:hover {
     line-height: 150%;
 }
 
-@media screen and (max-width:1233px){
+@media screen and (max-width:1300px){
   .about_us_general{
-    height: 1500px;
+    height: 850px;
+  }
+  .AU__text{
+    max-width: 500px;
   }
     
 }
 
+@media screen and (max-width:1125px){
+  .about_us_general{
+    height: 1500px;
+  }
+  .AU__text{
+    max-width: 600px;
+  }
+  .AU__text_title{
+  max-width: 600px;
+  }
+}
+
+@media screen and (max-width:760px){
+  .about_us_general{
+    height: 1700px;
+  }
+  .AU__text{
+    max-width: 400px;
+  }
+  .AU__text_title{
+  max-width: 450px;
+  }
+}
+
 @media screen and (max-width:615px){
   .about_us_general{
-    height: 1560px;
+    height: 1800px;
   }
-    
-}
-@media screen and (max-width:555px){
   .about_us__photo{
     width: 400px;
     height: 500px;
+    background: url(../img/photo1.png),lightgray 1.016px -13.165px / 99.147% 129.333% no-repeat;
   }
-  .about_us_general{
-    height: 1450px;
+      .AU__text{
+      max-width: 350px;
+      padding-left: 10px;
+    }
+  .AU__text_title{
+    max-width: 300px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    max-height: 88px;
+    }
+  .about_us__text{
+    padding: 0;
   }
-    
+}
+
+@media screen and (max-width:400px){
+
+  .about_us__photo{
+    width: 300px;
+    height: 400px;
+    background: url(../img/photo1.png), lightgray 0.762px -10.532px / 99.147% 129.333% no-repeat;
+  }
+  .AU__text{
+  max-width: 300px;
+  }
+  .AU__text_title{
+    max-width: 300px;
+    }
+
 }
 
 
