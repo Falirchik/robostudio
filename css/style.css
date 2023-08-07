@@ -74,7 +74,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container{
-    height: 960px;
+    height: 800px;
     width: 100%;
     margin: 0 auto;
 }
@@ -422,7 +422,7 @@ a:hover {
     align-items: center;
     background-color: #D4DFFE;
 }
-.banner-container {
+/*.banner-container {
     overflow: hidden;
     position: relative;
 }
@@ -434,10 +434,10 @@ a:hover {
 }
 .banner-container li {
     clip-path: polygon(60px 0%, 100% 0%, 100% 100%, 0% 100%);    
-    /* clip-path: polygon(0px 0%, 100% 0%, 100% 100%, 0% 100%);  */ /*прямой вариант*/
+    /* clip-path: polygon(0px 0%, 100% 0%, 100% 100%, 0% 100%);  */ /*прямой вариант
     position: relative;
     margin: 0 -35px;
-    width: calc(100% / 6 + 70px); /* 6 - кол-во фотографий */
+    width: calc(100% / 6 + 70px); /* 6 - кол-во фотографий 
     transition: width 0.5s ease-in;
 }
 .banner-container li a {
@@ -457,7 +457,7 @@ a:hover {
 }    
 .banner-container ul li:hover a img {
     opacity: 1;
-}
+} */
 
 
 
@@ -761,7 +761,7 @@ a:hover {
 
 .advantages {
     width: auto;
-    height: 880px;
+    height: 1030px;
     flex-shrink: 0;
     margin: 0 auto;
     background: #FFFDF1;
@@ -776,9 +776,9 @@ a:hover {
 
 .advantage__general {
     display: grid;
-    gap: 58px;
-    grid-template-columns: repeat(3,300px);
-    grid-template-rows: repeat(3,200px);
+    gap: 20px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -787,8 +787,8 @@ a:hover {
 .advantage__block {
     text-align: center;
     background-color: #B8C8F6;
-    width: 300px;
-    height: 230px;
+    width: 350px;
+    height: 280px;
     border-radius: 40px;
 }
 
