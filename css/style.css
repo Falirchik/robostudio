@@ -470,7 +470,7 @@ a:hover {
 */
 .carousel {
   height: 800px;
-  width: 100%;
+  width: 80%;
   overflow: hidden;
   text-align: center;
   position: relative;
@@ -1004,7 +1004,6 @@ margin: 10px;
 .rec__block {
     width: 260px;
     height: 600px;
-    flex-shrink: 0;
     border-radius: 40px;
     background: #B8C8F6;
     display: flex;
@@ -1083,27 +1082,40 @@ margin: 10px;
 @media screen and (max-width:1600px){
     .course__rec{
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px 0;
+        gap: 2em 1em;
+        max-width: 900px;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
     }
     .course__block{
         height: 1450px;
+
     }
-    
-}
-@media screen and (max-width:830px){
-    .course__rec{
-        grid-template-columns: 1fr 1fr;
-        gap: 10px 0;
-        
-    }
-    .course__block{
-        height: 2080px;
-        
-    }
-    
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:910px){
+  .course__rec{
+      grid-template-columns: 1fr 1fr;
+      gap: 1em 1em;
+      max-width: 600px;
+      position: relative;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+  }
+  .course__block{
+    height: 2080px;
+
+  }
+}
+
+@media screen and (max-width:610px){
   .course__rec{
       grid-template-columns: 1fr;
       gap: 10px 0;
