@@ -1090,7 +1090,28 @@ margin: 10px;
   }
   
 }
+@media screen and (max-width:436px){
 
+  .course__block{
+      height: 3930px;
+  }
+  
+}
+@media screen and (max-width:333px){
+
+  .course__block{
+      height: 3960px;
+  }
+  
+}
+
+@media screen and (max-width:330px){
+
+  .course__block{
+      height: 4000px;
+  }
+  
+}
 
 
 /* РАСПИСАНИЕ */
