@@ -55,7 +55,7 @@ font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     font-style: normal;
     line-height: normal;
-    line-height: 30px;
+    line-height:0px;
 
 }
 .text-header{
@@ -146,26 +146,30 @@ font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     position: sticky;
     top: 0;
-    height: 60px;
-  text-align: center;
+    height: 80px;
+    text-align: center;
 }
 
 ul.menu {
-  display: grid;
+  display: flex;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 1500px;
+  flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 20px;
+    max-width: 1500px;
 }
+
 .menu a{
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   color: #000000;
   text-decoration: none;
   text-align: center;
-  padding-top: -20px;
-  padding-bottom: -20px;
+  /* padding-top: -20px;
+  padding-bottom: -20px; */
 }
 
 .logo {
@@ -227,6 +231,9 @@ ul.menu {
     font-style: normal;
     line-height: normal;
 }
+.menu a.active{
+  text-decoration: underline;
+}
 
 a:hover {
     text-decoration: underline;
@@ -235,7 +242,6 @@ a:hover {
 .whatsapp,.viber{
     text-decoration: none;
     color: #ffd700;
-    ;
 }
 
 @media screen and (max-width:1130px){
