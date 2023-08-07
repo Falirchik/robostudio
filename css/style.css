@@ -83,8 +83,6 @@ font-family: 'Roboto Condensed', sans-serif;
 .header {
     min-height: 900px;
     background-color: #ffffff;
-    
-    
 }
 
 .header_fixed {
@@ -117,12 +115,11 @@ font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding-left: 116px;
     padding-right: 100px;
     font-weight: 700;
     align-content: center;
-    justify-content: center;
     align-items: center;
 }
 .contacts__link{
@@ -135,20 +132,14 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .contacts__icon{
     margin-right: 10px;
-    /* display: flex; */
-
 }
 
 .icon{
     padding-left: 15px;
     padding-top: 5px;
-    
 }
 
 .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
     background-color: #FFEB3B;
     z-index: 1000;
@@ -156,7 +147,16 @@ font-family: 'Roboto Condensed', sans-serif;
     position: sticky;
     top: 0;
     height: 60px;
-    align-content: center;
+  text-align: center;
+}
+
+ul.menu {
+  display: grid;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1500px;
 }
 .menu a{
   margin-left: 10px;
@@ -164,24 +164,13 @@ font-family: 'Roboto Condensed', sans-serif;
   color: #000000;
   text-decoration: none;
   text-align: center;
+  padding-top: -20px;
+  padding-bottom: -20px;
 }
-
-nav.menu {
-    display: grid;
-    align-items: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
 
 .logo {
     width: 160px;
-    margin-right: auto
-    
-    
+    margin-right: auto   
 }
 
 
@@ -272,15 +261,27 @@ a:hover {
     .text-header_left{
       font-size: 30px;
     }
+}
 
-    
+@media screen and (max-width:900px){
+  .nav.menu{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;    
+    width: 300px;
+  }
+  ul.menu {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 705px) {
     .contacts{
         height: 240px;
     }
-
+    ul.menu {
+      grid-template-columns: 1fr;
+    }
   }
 
   @media screen and (max-width: 554px) {
