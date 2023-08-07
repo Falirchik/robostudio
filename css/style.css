@@ -831,7 +831,7 @@ a:hover {
     /* gap:20px; */
   }
   .advantages{
-    height: 1540px;
+    height: 1450px;
   }
   .advantage__block{
     width: 400px;
@@ -845,20 +845,34 @@ a:hover {
   }
 }
 
-@media screen and (max-width:620px){
+@media screen and (max-width:750px){
+  .advantage__general{
+    gap: 1em 2em;
+  }
+}
+
+@media screen and (max-width:660px){
   .advantage__block{
-    width: 250px;
+    width: 280px;
 
   }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:620px){
+  .advantage__block{
+    width: 260px;
+
+  }
+
+}
+
+@media screen and (max-width:590px){
   .advantage__general{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
   .advantages{
-    height: 2850px;
+    height: 2530px;
   }
   .advantage__block{
     height: 250px;
