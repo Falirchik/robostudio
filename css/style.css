@@ -153,15 +153,19 @@ font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     position: sticky;
     top: 0;
+    /* margin-top: -20px;
+    margin-bottom: -20px; */
     
 
 }
 .menu a{
-    margin: 10px;
-  padding-top: -20px;
-  padding-bottom: -20px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: #000000;
   text-decoration: none;
+  text-align: center;
+  /* margin-top: -20px;
+  margin-bottom: -20px; */
   
 }
 
@@ -267,6 +271,10 @@ a:hover {
         padding-left: 10px;
         padding: 0;
     }
+    .first_screen{
+
+      max-width : 1130px;
+    }
     
 }
 
@@ -279,6 +287,9 @@ a:hover {
   @media screen and (max-width: 554px) {
     .contacts {
       height: 305px;
+  }
+  .first_screen{
+    height: 1100px;
   }
   }
 @media screen and (max-width: 511px) {
