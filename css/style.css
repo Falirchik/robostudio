@@ -287,7 +287,7 @@ nav.clearfix a#pull {
   	nav.clearfix a {
 	  	text-align: center;
 	  	width: 100%;
-	  	text-indent: 25px;
+	  	text-indent: 0px;
   	}
 }
 
@@ -310,7 +310,7 @@ clearfix ul {
 		height: 30px;
 		display: inline-block;
 		position: absolute;
-		right: 15px;
+		/* right: 15px; */
 		top: 10px;
 	}
 }
@@ -326,12 +326,11 @@ clearfix ul {
   		height: auto;
   	}
   	nav.clearfix li {
-  		width: 50%;
+  		width: 60%;
   		position: relative;
   	}
   	nav.clearfix a {
-	  	width: 100%;
-	  	text-indent: 25px;
+	  	width: 50%px;
   	}
 }
 
@@ -343,34 +342,23 @@ clearfix ul {
 		height: auto;
 	}
 	nav.clearfix a#pull {
-		display: block;
+		display: flex;
 		background-color: #FFEB3B;
-		width: 100%;
-		position: relative;
+		width: 20%;
+    position: relative;
+    top: 0;
+
 	}
 	nav.clearfix a#pull:after {
 		content:"";
 		width: 40px;
-		height: 30px;
+		height: 40;
 		display: inline-block;
 		position: absolute;
 		right: 15px;
 		/* top: 10px; */
 	}
 }
-
-/*Smartphone*/
-@media only screen and (max-width : 320px) {
-	nav.clearfix li {
-		display: block;
-		float: none;
-		width: 100%;
-	}
-} li.clearfix {
-		display: block;
-		float: none;
-		width: 100%;
-	}
 
 
 .logo {
