@@ -253,6 +253,9 @@ nav.clearfix a:hover{
 nav.clearfix a#pull {
 	display: none;
 }
+a#pull{
+  object-position:right;
+}
 
 @media screen and (max-width:1345px) {
   nav.clearfix{
@@ -334,7 +337,6 @@ clearfix ul {
   	}
 }
 
-/*Styles for screen 515px and lower*/
 @media only screen and (max-width : 600px) {
 
 	nav.clearfix ul {
@@ -354,8 +356,8 @@ clearfix ul {
 		width: 40px;
 		height: 40;
 		display: inline-block;
-		position: absolute;
-		right: 15px;
+    object-position:right;
+
 		/* top: 10px; */
 	}
 }
@@ -1416,7 +1418,7 @@ margin: 10px;
 /* РАСПИСАНИЕ */
 .schedule {
     background-color: var(--blue-color);
-    height: 800px;
+    height: 860px;
     width: auto;
     
 
@@ -1425,29 +1427,43 @@ margin: 10px;
     text-align: center;
     color: #0028A0;
     padding-top: 20px;
+    
 }
 .schedule__block{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap:1em;
     justify-content: center;
     align-content: center;
     align-items: center;
     justify-items: center;
+    max-width: 1500px;
+
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .schedule__rec {
     border-radius: 40px;
     background: #FFF5AE;
-    width: 700px;
-    height: 600px;
+    width: 600px;
+    height: 700px;
     flex-shrink: 0;
 }
 .rayevskogo__title {
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .koshevskogo__title {
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -1491,6 +1507,13 @@ margin: 10px;
     align-items: center;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
+    max-width: 1600px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .text__title {
