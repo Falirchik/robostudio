@@ -225,7 +225,7 @@ nav.clearfix li:last-child a {
 	/* border-right: 0; */
 }
 nav.clearfix a:active, nav.clearfix a.active {
-	background-color: #ffb13b;
+	background-color: #ffdd00;
 
 }
 nav.clearfix a:hover{
