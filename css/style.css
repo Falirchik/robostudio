@@ -102,7 +102,7 @@ font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     font-style: normal;
-    line-height: normal;
+    line-height: 1;
     letter-spacing: 5px;
 }
 
@@ -120,6 +120,15 @@ font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     align-content: center;
     align-items: center;
+}
+
+.header_left_container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
 }
 
 .contacts__name{
