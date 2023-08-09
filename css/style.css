@@ -121,6 +121,10 @@ font-family: 'Roboto Condensed', sans-serif;
     align-content: center;
     align-items: center;
 }
+
+.contacts__name{
+  margin-left: 10px;
+}
 .contacts__link{
     display: flex;
     flex-direction: row;
@@ -180,8 +184,6 @@ nav.clearfix{
 nav.clearfix ul{
 	width: 1350px;
 }
-
-
 
 nav.clearfix li {
 	display: flex;
