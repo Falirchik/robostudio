@@ -236,17 +236,29 @@ a#pull{
   object-position:right;
 }
 
-@media screen and (max-width:1345px) {
-  nav.clearfix{
-    height: 100px;
-  }
+@media screen and (max-width:1046px) {
   nav.clearfix a{
-    height: 100px;
+    font-size: 20px;
   }
   
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width:1046px) {
+  nav.clearfix a{
+    font-size: 18px;
+  }
+  
+}
+
+@media screen and (max-width:660px) {
+	nav.clearfix a{ 
+    height: 60px;
+    /* line-height: 28px; */
+  }
+  
+}
+
+/* @media screen and (max-width: 640px) {
 	nav.clearfix { 
   		height: 200px;
   	}
@@ -271,7 +283,7 @@ a#pull{
 	  	width: 100%;
 	  	text-indent: 0px;
   	}
-}
+} */
 
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 480px) {
@@ -424,7 +436,7 @@ a:hover {
         width: 100px;
     }    
     .header{
-        height: 900px;
+        height: 660px;
     }
     .menu{
         padding-left: 10px;
