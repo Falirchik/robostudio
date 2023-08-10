@@ -1237,6 +1237,13 @@ margin: 10px;
     align-content: center;
     justify-content: center;
     align-items: center;
+    max-width: 1600px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 
 }
 
@@ -1381,68 +1388,61 @@ margin: 10px;
 
 
 
-@media screen and (max-width:1900px){
+@media screen and (max-width:1960px){
 
   .course__block{
-      height: 1450px;
+      height: 1615px;
 
   }
   .rec__block{
     margin-top: 20px;
   }
-}
-@media screen and (max-width:1600px){
-    .course__rec{
+  @media screen and (max-width:1204px){
+
+    .course__block{
+        height: 1630px;
+  
     }
-}
-
-@media screen and (max-width:910px){
-  .course__rec{
-      grid-template-columns: 1fr 1fr;
-      gap: 1em 1em;
-      max-width: 600px;
-      position: relative;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      margin: auto;
   }
-  .course__block{
-    height: 2080px;
 
-  }
-}
+  @media screen and (max-width:1120px){
 
-@media screen and (max-width:1080px){
-  .course__block{
-      height: 2080px;
-      
-  }
+    .course__block{
+        height: 2350px;
   
-}
-@media screen and (max-width:910px){
-
-  .course__block{
-      height: 2750px;
+    }
   }
-  
-}
-@media screen and (max-width:621px){
 
-  .course__block{
-      height: 2780px;
+  @media screen and (max-width:840px){
+
+    .course__block{
+        height: 3060px;
+  
+    }
   }
+
+  @media screen and (max-width:621px){
+
+    .course__block{
+        height: 3090px;
   
-}
-
-@media screen and (max-width:556px){
-
-  .course__block{
-      height: 4685px;
+    }
   }
+  @media screen and (max-width:560px){
+
+    .course__block{
+        height: 5220px;
   
-}
+    }
+  }
+
+  @media screen and (max-width:436px){
+
+    .course__block{
+        height: 5240px;
+  
+    }
+  }
 
 
 /* РАСПИСАНИЕ */
