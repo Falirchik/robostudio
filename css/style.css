@@ -153,6 +153,13 @@ font-family: 'Roboto Condensed', sans-serif;
   align-items: center;
   margin-right: 20px;
 }
+
+.contacts__right_right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .contacts__location{
   display: flex;
   flex-direction: row;
@@ -525,6 +532,15 @@ a:hover {
     }
   }
 
+  @media screen and (max-width: 690px) {
+  .contacts__right{
+    flex-direction: column;
+  }
+  .contacts{
+    height: 225px;
+  }
+  }
+
   @media screen and (max-width: 554px) {
   .first_screen{
     height: 1100px;
@@ -535,14 +551,16 @@ a:hover {
     font-size: 18px;
   }
 
+  }
 
-  }
-  @media screen and (max-width: 751px) {
-
-    .contacts {
-      height: 180px;
-  }
-  }
+  @media screen and (max-width: 465px) {
+    .contacts__right_right{
+      flex-direction: column;
+    }
+    .contacts{
+      height: 265px;
+    }
+    }
   @media screen and (max-width: 418px) {
 
     .contacts {
