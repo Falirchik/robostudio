@@ -806,7 +806,94 @@ position: absolute;
   right: 0;
 }
 
+@media screen and (max-width:1500px){
+  .carousel_2 .prev-button,
+  .carousel_2 .next-button {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
+}
+@media screen and (max-width:1230px){
+  .carousel_2 .prev-button,
+  .carousel_2 .next-button {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+@media screen and (max-width:1230px){
+  .photography{
+    height: 700px;
+  }
+  .carousel_2 img {
+
+      width: 900px;
+      height: 700px;
+
+    }
+}
+
+@media screen and (max-width:950px){
+  .photography{
+    height: 600px;
+  }
+  .carousel_2 img {
+
+      width: 800px;
+      height: 600px;
+
+    }
+}
+
+@media screen and (max-width:830px){
+  .photography{
+    height: 500px;
+  }
+  .carousel_2 img {
+
+      width: 700px;
+      height: 500px;
+
+    }
+}
+
+@media screen and (max-width:710px){
+  .photography{
+    height: 400px;
+  }
+  .carousel_2 img {
+
+      width: 600px;
+      height: 400px;
+
+    }
+}
+
+@media screen and (max-width:610px){
+  .photography{
+    height: 350px;
+  }
+  .carousel_2 img {
+
+      width: 500px;
+      height: 350px;
+
+    }
+}
+
+@media screen and (max-width:510px){
+  .photography{
+    height: 250px;
+  }
+  .carousel_2 img {
+
+      width: 340px;
+      height: 250px;
+
+    }
+}
 
 /*.banner-container {
     overflow: hidden;
