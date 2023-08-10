@@ -723,6 +723,11 @@ a:hover {
   position: relative;
   padding: 0;
   list-style: none;
+
+
+
+
+  
 /**
   * Where the magic happens
   */
@@ -1231,7 +1236,7 @@ margin: 10px;
 
 .course__block{
     background-color: var(--yellow-color);
-    height: 800px;
+    height: 900px;
     width: auto;
 }
 
@@ -1252,8 +1257,8 @@ margin: 10px;
 }
 
 .rec__block {
-    width: 260px;
-    height: 600px;
+    width: 270px;
+    height: 690px;
     border-radius: 40px;
     background: #B8C8F6;
     display: flex;
@@ -1299,7 +1304,7 @@ margin: 10px;
 .course__point {
     padding-left: 10px;
     text-align: left;
-    max-width: 200px;
+    max-width: 180px;
     /* list-style: none; */
     /* list-style-position: inside; */
 
