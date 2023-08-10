@@ -740,30 +740,30 @@ a:hover {
 
 /* КАРУСЕЛЬ */
 .photography{
-    height: 750px;
+    height: 800px;
+    width: 100%;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #D4DFFE;
-    position: relative
+    position: relative;
+
 }
 
 .carousel_2 {
   max-width: 1000px;
-  max-height: 750px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
+  max-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel_2 img {
+position: absolute;
 
-
-  width: 100%;
-  height: 100%;
+  width: 1000px;
+  height: 800px;
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -773,20 +773,25 @@ a:hover {
 
 .carousel_2 .prev-button,
 .carousel_2 .next-button {
+  display: flex;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 100px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.0);
+  color:#fff;
+  font-size: 50px;
   text-align: center;
+  vertical-align: middle;
   line-height: 50px;
   cursor: pointer;
+  justify-content: space-around;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
-.carousel_2 .prev-button img{
-  rotate: 180deg;
-}
 
 .carousel_2 .prev-button img,
 .carousel_2 .next-button img{
