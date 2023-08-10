@@ -461,12 +461,32 @@ a:hover {
     color: #ffd700;
 }
 
+.first_screen__texting{
+position: absolute;
+top: 25%;
+left: 0;
+bottom: 0;
+right: 0;
+}
+
 @media screen and (max-width:1300px){
     .contacts{
       flex-direction: column;
       height: 200px;
     }
     
+
+}
+
+@media screen and (max-width:1150px){
+
+  .blur {
+    background: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(3px);
+    height: 100%;
+    width: 50%;
+  }
+
 
 }
 
@@ -509,6 +529,12 @@ a:hover {
     .contacts__icon img{
       width: 30px;
     }
+    .blur {
+      background: rgba(0, 0, 0, 0.5); 
+      backdrop-filter: blur(3px);
+      height: 100%;
+      width: 70%;
+    }
 }
 
 @media screen and (max-width:900px){
@@ -520,6 +546,18 @@ a:hover {
   }
   ul.menu {
     grid-template-columns: 1fr 1fr;
+  }
+  .blur {
+    background: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(7px);
+    height: 100%;
+    width: 100%;
+  }
+  .first_screen{
+    height: 554px;
+  }
+  .header{
+    height: 590px;
   }
 }
 
@@ -539,13 +577,12 @@ a:hover {
   .contacts{
     height: 225px;
   }
+  .first_screen__title{
+    padding-left: 50px;
+    margin-right: 100px;
+  }
   }
 
-  @media screen and (max-width: 554px) {
-  .first_screen{
-    height: 1100px;
-  }
-  }
 @media screen and (max-width: 545px) {
   .text-header{
     font-size: 18px;
@@ -566,11 +603,34 @@ a:hover {
     .contacts {
       height: 210px;
   }
+  .first_screen,
+  .container,
+  .header{
+    height: 630px;
   }
+  
+  }
+
+  @media screen and (max-width: 410px) {
+
+  .first_screen,
+  .container,
+  .header{
+    height: 660px;
+  }
+  
+  }
+
   @media screen and (max-width: 395px) {
 
     .contacts {
       height: 230px;
+  }
+
+  .first_screen,
+  .container,
+  .header{
+    height: 670px;
   }
   }
 /* О НАС */
