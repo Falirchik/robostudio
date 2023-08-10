@@ -1211,10 +1211,10 @@ margin: 10px;
     }
   }
 
-  @media screen and (max-width:621x){
+  @media screen and (max-width:621px){
 
     .course__block{
-        height: 2370px;
+        height: 2375px;
   
     }
   }
