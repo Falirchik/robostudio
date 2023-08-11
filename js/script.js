@@ -47,3 +47,5 @@ function showNextImage() {
 
   images[currentImageIndex].classList.add('current');
 }
+
+

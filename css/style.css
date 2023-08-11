@@ -277,15 +277,7 @@ nav.clearfix a {
 	text-decoration: none;
 	line-height: 60px;
 }
-/* nav.clearfix li a {
-	border-right: 1px solid #FFEB3B;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-} */
-nav.clearfix li:last-child a {
-	/* border-right: 0; */
-}
+
 nav.clearfix a:active, nav.clearfix a.active {
 	background-color: #ffdd00;
 
@@ -840,7 +832,7 @@ position: absolute;
   width: 100px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.0);
-  color:#fff;
+  color:#000;
   font-size: 50px;
   text-align: center;
   vertical-align: middle;
@@ -954,45 +946,6 @@ position: absolute;
 
     }
 }
-
-/*.banner-container {
-    overflow: hidden;
-    position: relative;
-}
-.banner-container ul {
-    padding: 0;
-    display: flex;
-    width: calc(100%);
-    margin-left: -30px;
-}
-.banner-container li {
-    clip-path: polygon(60px 0%, 100% 0%, 100% 100%, 0% 100%);    
-    /* clip-path: polygon(0px 0%, 100% 0%, 100% 100%, 0% 100%);  */ /*прямой вариант
-    position: relative;
-    margin: 0 -35px;
-    width: calc(100% / 6 + 70px); /* 6 - кол-во фотографий 
-    transition: width 0.5s ease-in;
-}
-.banner-container li a {
-    display: block;
-    background: #000;    
-}
-.banner-container li a img {
-    max-width: none;
-    height: 800px;
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.6;
-    transition: opacity 0.7s ease-in;
-}
-.banner-container ul li:hover {
-    width: 100%;
-}    
-.banner-container ul li:hover a img {
-    opacity: 1;
-} */
-
-
   
 
 /* ПРИЕМУЩЕСТВА */
