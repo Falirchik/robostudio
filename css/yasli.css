@@ -105,8 +105,8 @@
   object-fit: cover;
 }
 
-.prev-button_slider,
-.next-button_slider {
+.prev-button,
+.next-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -118,10 +118,10 @@
   color: white;
 }
 
-.prev-button_slider {
+.prev-button {
   left: 10px;
 }
 
-.next-button_slider {
+.next-button {
   right: 10px;
 }
