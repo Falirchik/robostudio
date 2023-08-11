@@ -876,7 +876,7 @@ right: 0;
 
 /* КАРУСЕЛЬ */
 .photography{
-    height: 700px;
+    height: 800px;
     width: 100%;
     padding: 10px;
     display: flex;
@@ -888,8 +888,8 @@ right: 0;
 }
 
 .carousel_2 {
-  max-width: 1000px;
-  max-height: 800px;
+  max-width: 90%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -897,7 +897,7 @@ right: 0;
 
 .carousel_2 img {
 position: absolute;
-  max-height: 100%;
+  height: 100%;
   transition: opacity 0.5s ease-in-out;
 }
 
