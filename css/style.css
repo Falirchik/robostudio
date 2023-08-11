@@ -878,7 +878,6 @@ right: 0;
 .photography{
     height: auto;
     width: 100%;
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -888,7 +887,7 @@ right: 0;
     /* width: 600px; */
     margin: 0 auto;
     overflow: hidden;
-    min-width: 500px;
+    min-width: 350px;
 
 }
 
