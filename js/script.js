@@ -15,50 +15,50 @@ $(function() {
 });
 
 
-// const carousel_2 = document.querySelector('.carousel_2');
-// const images = carousel_2.querySelectorAll('img');
-// const prevButton = carousel_2.querySelector('.prev-button');
-// const nextButton = carousel_2.querySelector('.next-button');
-// let currentImageIndex = 0;
+const carousel_2 = document.querySelector('.carousel_2');
+const images = carousel_2.querySelectorAll('img');
+const prevButton = carousel_2.querySelector('.prev-button');
+const nextButton = carousel_2.querySelector('.next-button');
+let currentImageIndex = 0;
 
-// prevButton.addEventListener('click', showPreviousImage);
-// nextButton.addEventListener('click', showNextImage);
+prevButton.addEventListener('click', showPreviousImage);
+nextButton.addEventListener('click', showNextImage);
 
-// function showPreviousImage() {
-//   images[currentImageIndex].classList.remove('current');
+function showPreviousImage() {
+  images[currentImageIndex].classList.remove('current');
 
-//   if (currentImageIndex === 0) {
-//     currentImageIndex = images.length - 1;
-//   } else {
-//     currentImageIndex--;
-//   }
+  if (currentImageIndex === 0) {
+    currentImageIndex = images.length - 1;
+  } else {
+    currentImageIndex--;
+  }
 
-//   images[currentImageIndex].classList.add('current');
-// }
+  images[currentImageIndex].classList.add('current');
+}
 
-// function showNextImage() {
-//   images[currentImageIndex].classList.remove('current');
+function showNextImage() {
+  images[currentImageIndex].classList.remove('current');
 
-//   if (currentImageIndex === images.length - 1) {
-//     currentImageIndex = 0;
-//   } else {
-//     currentImageIndex++;
-//   }
+  if (currentImageIndex === images.length - 1) {
+    currentImageIndex = 0;
+  } else {
+    currentImageIndex++;
+  }
 
-//   images[currentImageIndex].classList.add('current');
-// }
+  images[currentImageIndex].classList.add('current');
+}
 
 // Получаем элементы слайдера
 const slider = document.querySelector('.slider');
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
+const prevButton_slider = document.querySelector('.prev-button');
+const nextButton_slider = document.querySelector('.next-button');
 const slides = Array.from(slider.querySelectorAll('img'));
 const slideCount = slides.length;
 let slideIndex = 0;
 
 // Устанавливаем обработчики событий для кнопок
-prevButton.addEventListener('click', showPreviousSlide);
-nextButton.addEventListener('click', showNextSlide);
+prevButton_slider.addEventListener('click', showPreviousSlide);
+nextButton_slider.addEventListener('click', showNextSlide);
 
 // Функция для показа предыдущего слайда
 function showPreviousSlide() {
