@@ -17,12 +17,12 @@ $(function() {
 
 const carousel_2 = document.querySelector('.carousel_2');
 const images = carousel_2.querySelectorAll('img');
-const prevButton = carousel_2.querySelector('.prev-button');
-const nextButton = carousel_2.querySelector('.next-button');
+const prevButton_carusel = carousel_2.querySelector('.prev-button_carusel');
+const nextButton_carusel = carousel_2.querySelector('.next-button_carusel');
 let currentImageIndex = 0;
 
-prevButton.addEventListener('click', showPreviousImage);
-nextButton.addEventListener('click', showNextImage);
+prevButton_carusel.addEventListener('click', showPreviousImage);
+nextButton_carusel.addEventListener('click', showNextImage);
 
 function showPreviousImage() {
   images[currentImageIndex].classList.remove('current');
@@ -48,10 +48,12 @@ function showNextImage() {
   images[currentImageIndex].classList.add('current');
 }
 
+
+
 // Получаем элементы слайдера
 const slider = document.querySelector('.slider');
-const prevButton_slider = document.querySelector('.prev-button');
-const nextButton_slider = document.querySelector('.next-button');
+const prevButton_slider = document.querySelector('.prev-button_slider');
+const nextButton_slider = document.querySelector('.next-button_slider');
 const slides = Array.from(slider.querySelectorAll('img'));
 const slideCount = slides.length;
 let slideIndex = 0;

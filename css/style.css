@@ -792,7 +792,7 @@ right: 0;
 
 /* КАРУСЕЛЬ */
 .photography{
-    height: 800px;
+    height: 700px;
     width: 100%;
     padding: 10px;
     display: flex;
@@ -813,9 +813,7 @@ right: 0;
 
 .carousel_2 img {
 position: absolute;
-
-  width: 1000px;
-  height: 800px;
+  max-height: 100%;
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -823,8 +821,8 @@ position: absolute;
   opacity: 0;
 }
 
-.carousel_2 .prev-button,
-.carousel_2 .next-button {
+.carousel_2 .prev-button_carusel,
+.carousel_2 .next-button_carusel {
   display: flex;
   position: absolute;
   top: 50%;
@@ -845,30 +843,30 @@ position: absolute;
 }
 
 
-.carousel_2 .prev-button img,
-.carousel_2 .next-button img{
+.carousel_2 .prev-button_carusel img,
+.carousel_2 .next-button_carusel img{
   width: 50px;
 }
 
-.carousel_2 .prev-button {
+.carousel_2 .prev-button_carusel {
   left: 0;
 }
 
-.carousel_2 .next-button {
+.carousel_2 .next-button_carusel {
   right: 0;
 }
 
 @media screen and (max-width:1500px){
-  .carousel_2 .prev-button,
-  .carousel_2 .next-button {
+  .carousel_2 .prev-button_carusel,
+  .carousel_2 .next-button_carusel {
     margin-left: 10%;
     margin-right: 10%;
   }
 
 }
 @media screen and (max-width:1230px){
-  .carousel_2 .prev-button,
-  .carousel_2 .next-button {
+  .carousel_2 .prev-button_carusel,
+  .carousel_2 .next-button_carusel {
     margin-left: 5%;
     margin-right: 5%;
   }
