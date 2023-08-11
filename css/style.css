@@ -91,6 +91,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .header {
     background-color: #ffffff;
+    height: auto;
 }
 
 .header_fixed {
@@ -133,7 +134,7 @@ a#first_screen_number[href^="tel:"]  {
 
 .contacts {
     background-color: #fff;
-    height: 150px;
+    height: auto;
     width: 100%;
     color: var(--black-color);
     text-decoration: none;
@@ -339,8 +340,8 @@ clearfix ul {
 	nav.clearfix a#pull:after {
 		content:"";
 		background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;
-		width: 30px;
-		height: 30px;
+		width: auto;
+		height: auto;
 		display: inline-block;
 		position: absolute;
 		/* right: 15px; */
@@ -359,12 +360,26 @@ clearfix ul {
   		height: auto;
   	}
   	nav.clearfix li {
-  		width: 60%;
+  		width: 70%;
   		position: relative;
   	}
   	nav.clearfix a {
 	  	width: 50%px;
   	}
+}
+@media screen and (max-width: 370px) {
+  	nav.clearfix li {
+  		width: 80%;
+
+  	}
+
+}
+@media screen and (max-width: 330px) {
+  nav.clearfix li {
+    width: 80%;
+
+  }
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -474,7 +489,6 @@ right: 0;
 @media screen and (max-width:1300px){
     .contacts{
       flex-direction: column;
-      height: 200px;
     }
     
 
@@ -496,7 +510,6 @@ right: 0;
     
     .contacts {
         flex-direction: column;
-        height: 170px;
     }
     .logo img{
         width: 100px;
@@ -535,7 +548,7 @@ right: 0;
       background: rgba(0, 0, 0, 0.5); 
       backdrop-filter: blur(3px);
       height: 100%;
-      width: 70%;
+      width: 60%;
     }
 }
 
@@ -561,12 +574,20 @@ right: 0;
   .header{
     height: 590px;
   }
+  .blur {
+
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:790px){
+  .blur{
+    width: 80%;
+  }
+
 }
 
 @media screen and (max-width: 705px) {
-    .contacts{
-        height: 170px;
-    }
     ul.menu {
       grid-template-columns: 1fr;
     }
@@ -576,12 +597,13 @@ right: 0;
   .contacts__right{
     flex-direction: column;
   }
-  .contacts{
-    height: 225px;
-  }
+
   .first_screen__title{
     padding-left: 50px;
     margin-right: 100px;
+  }
+  .blur{
+    width: 100%;
   }
   }
 
@@ -595,9 +617,6 @@ right: 0;
   @media screen and (max-width: 465px) {
     .contacts__right_right{
       flex-direction: column;
-    }
-    .contacts{
-      height: 255px;
     }
     }
 
@@ -636,28 +655,8 @@ right: 0;
   
         }
 
-  @media screen and (max-width: 418px) {
+ 
 
-    .contacts {
-      height: 260px;
-  }
-  .first_screen,
-  .container,
-  .header{
-    height: 630px;
-  }
-  
-  }
-
-  @media screen and (max-width: 410px) {
-
-  .first_screen,
-  .container,
-  .header{
-    height: 660px;
-  }
-  
-  }
 
   @media screen and (max-width: 397px) {
     .contacts__right{
@@ -665,18 +664,6 @@ right: 0;
     }
   }
 
-  @media screen and (max-width: 395px) {
-
-    .contacts {
-      height: 260px;
-  }
-
-  .first_screen,
-  .container,
-  .header{
-    height: 670px;
-  }
-  }
 
   @media screen and (max-width: 373px) {
       .contacts__adress#adress_rayevskogo{
@@ -686,24 +673,14 @@ right: 0;
       font-size: 16px;
 
     }
-    .contacts {
-      height: 270px;
-  }
   .contacts__adress__all{
     margin-left: 10px;
   }
 }
 
-@media screen and (max-width: 339px) {
-  .contacts{
-     height: 285px;
-  }
-}
+
 
 @media screen and (max-width: 333px) {
-  .contacts{
-     height: 300px;
-  }
   .contacts__adress#adress_rayevskogo{
     margin-bottom: 30px;
 }

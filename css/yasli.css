@@ -1,10 +1,10 @@
 .first_screen__yasli{
-  height: 750px;
+  height: auto;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #D4DFFE;
 }
 
@@ -32,27 +32,26 @@
 
 
 .first_screen__english{
-  height: 500px;
+  height: auto;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #D4DFFE;
   position: relative;
 
 }
 
 .first_screen__razvivashki{
-  height: 750px;
+  height: auto;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #D4DFFE;
   position: relative;
-
 }
 
 .first_screen__title {
@@ -85,6 +84,7 @@
   flex-wrap: nowrap;
   flex-direction: column;
   max-height: 90%;
+  
 }
 
 
@@ -93,7 +93,7 @@
   position: relative;
   /* width: 600px; */
   max-width: 50%;
-  height: 90%;
+  height: 80%;
   margin: 0 auto;
   overflow: hidden;
   min-width: 500px;
