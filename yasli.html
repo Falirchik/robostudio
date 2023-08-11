@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/yasli.css">
 
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    
+
     <title>ROBOSTUDIO - ясли</title>
 </head>
 <body>
@@ -59,49 +64,29 @@
         <a href="#" id="pull"><img src="img/icons/burger.svg" width="50px"></a>
     </nav>
 
-    <div class="first_screen__yasli">
-        <div class="slider">
-            <input type="radio" name="toggle" id="btn-1" checked>
-            <input type="radio" name="toggle" id="btn-2">
-            <input type="radio" name="toggle" id="btn-3">
-          
-            <div class="slider-controls">
-              <label for="btn-1"></label>
-              <label for="btn-2"></label>
-              <label for="btn-3"></label>
-            </div>
-          
-            <ul class="slides">
-              <li class="slide">
-                <div class="slide-content">
-                  <h2 class="slide-title">Slide #1</h2>
-                  <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos commodi eos totam perferendis possimus dolorem, deleniti vitae harum? Enim.</p>
-                </div>
-                <p class="slide-image">
-                  <img src="img/carusel_1.jpg" alt="stuff">
-                </p>
-              </li>
-              <li class="slide">
-                <div class="slide-content">
-                  <h2 class="slide-title">Slide #2</h2>
-                  <p class="slide-text">Nisi ratione magni ea quis animi incidunt velit voluptate dolorem enim possimus, nam provident excepturi ipsam nihil molestiae minus delectus!</p>
-                </div>
-                <p class="slide-image">
-                  <img src="img/carusel_2.jpg" alt="stuff">
-                </p>
-              </li>
-              <li class="slide">
-                <div class="slide-content">
-                  <h2 class="slide-title">Slide #3</h2>
-                  <p class="slide-text">Quisquam quod ut quasi, vero obcaecati laudantium asperiores corporis ad atque. Expedita fugit dicta maxime vel doloribus sequi, facilis dignissimos.</p>
-                </div>
-                <p class="slide-image">
-                  <img src="img/carusel_3.jpg" alt="stuff">
-                </p>
-              </li>
-            </ul>
-          </div>
+<div class="first_screen__yasli">
+    <div class="first_screen__content">
+        <div class="first_screen__title">
+            Заголовок
+        </div>
+        <div class="first_screen__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates perferendis recusandae nulla magni, aperiam modi saepe pariatur obcaecati. Numquam vitae doloribus totam praesentium facere deleniti, rem velit voluptatibus pariatur perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam voluptas veritatis deleniti repellendus id illo officia laborum, dicta reiciendis enim quaerat ut vero, atque tempore repudiandae rem, porro eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem rerum qui assumenda distinctio beatae doloremque facere repellat perferendis debitis id suscipit, esse minus harum et veniam consectetur? Accusantium, iste fugit.
+        </div>
     </div>
+    <div class="slider-container">
+        
+        <div class="slider">
+          <img src="img/carusel_1.jpg">
+          <img src="img/carusel_2.jpg">
+          <img src="img/carusel_3.jpg">
+          <img src="img/carusel_4.jpg">
+          <img src="img/carusel_5.jpg">
+        </div>
+        <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+        <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
+      </div>
+    
+</div>
 
 
     <div class="contacts__block" id="contacts__block">
