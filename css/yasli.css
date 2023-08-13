@@ -79,7 +79,8 @@
 }
 
 .first_screen__content{
-  max-width: 40%;
+  max-width: 800px;
+
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -92,9 +93,9 @@
 .slider-container {
   position: relative;
   /* width: 600px; */
-  max-width: 50%;
+  max-width: 900px;
   height: 80%;
-  margin: 0 auto;
+  margin: 0 20px;
   overflow: hidden;
   min-width: 500px;
 }
