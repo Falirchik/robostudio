@@ -133,7 +133,7 @@ a[href^="tel:"] {
 
 a#first_screen_number[href^="tel:"]  {
   text-decoration: none;
-  color: #FFD700;
+  color: #fcd00e;
 }
 
 .contacts {
@@ -294,7 +294,7 @@ nav.clearfix a {
 }
 
 nav.clearfix a:active, nav.clearfix a.active {
-	background-color: #ffdd00;
+	background-color: #fcd00e;
 
 }
 nav.clearfix a:hover{
@@ -432,7 +432,7 @@ clearfix ul {
 
 .first_screen__title {
     padding: 0;
-    color: #FFD700;
+    color: #fcd00e;
     max-width: 600px;
     padding-left: 80px;
 
@@ -447,7 +447,7 @@ clearfix ul {
     align-items: flex-start;
 }
 .first_screen__text {
-    color: #ffd700;
+    color: #fcd00e;
     padding: 0;
     max-width: 250px;
 }
@@ -461,7 +461,7 @@ clearfix ul {
     max-width: 260px;
     padding-top: 10px;
     text-decoration: none;
-    color: #ffd700;
+    color: #fcd00e;
 }
 
 .text-fs{
@@ -482,7 +482,7 @@ a:hover {
 
 .whatsapp,.viber{
     text-decoration: none;
-    color: #ffd700;
+    color: #fcd00e;
 }
 
 .first_screen__texting{
@@ -768,7 +768,7 @@ margin-right: 20px;
     display: block;
     max-width: 632px;
     max-height: 44px;
-    color: #F3DA0B;
+    color: #fcd00e;
     margin-bottom: 15px;
 }
 .AU__text {
@@ -938,7 +938,7 @@ margin-right: 20px;
 .advantage__title {
     display: flex;
     justify-content: center;
-    color:#F3DA0B
+    color:#fcd00e
 
 }
 
@@ -1139,7 +1139,7 @@ margin: 10px;
 }
 
 .course__title {
-    color:#F3DA0B;
+    color:#fcd00e;
     text-align: center;
     padding-top: 10px;
 }
@@ -1323,7 +1323,7 @@ margin: 10px;
     width: auto;
 }
 .contacts__title {
-    color:#F3DA0B;
+    color:#fcd00e;
     text-align: center;
     padding-top: 20px;
 }
@@ -1351,7 +1351,7 @@ margin: 10px;
     font-weight: 500;
     font-size: 40px;
     text-transform: uppercase;  
-    color: #F3DA0B;
+    color: #fcd00e;
     max-width: 720px;
     
 }
