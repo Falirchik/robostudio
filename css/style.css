@@ -409,6 +409,9 @@ clearfix ul {
 	}
 }
 
+.logo{
+  margin-top: 10px;
+}
 
 .logo img {
     width: 100px;
@@ -1469,9 +1472,6 @@ grid-template-columns: 1fr 1fr;
     line-height: normal;
 }
 
-.logo_f{
-  padding-top: 10px;
-}
 
 @media screen and (max-width:880px) {
     .footer{
