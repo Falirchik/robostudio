@@ -487,15 +487,19 @@ a:hover {
 
 .first_screen__texting{
 position: absolute;
-top: 270px;
+top: 25%;
 left: 0;
 bottom: 0;
 right: 0;
+margin-right: 20px;
 }
 
 @media screen and (max-width:1300px){
     .contacts{
       flex-direction: column;
+    }
+    .first_screen__texting{
+      top: 30%;
     }
     
 
@@ -585,11 +589,15 @@ right: 0;
     ul.menu {
       grid-template-columns: 1fr;
     }
+
   }
 
   @media screen and (max-width: 690px) {
   .contacts__right{
     flex-direction: column;
+  }
+  .first_screen__texting{
+    top: 35%;
   }
 
   .blur{
