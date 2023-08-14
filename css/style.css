@@ -1469,6 +1469,10 @@ grid-template-columns: 1fr 1fr;
     line-height: normal;
 }
 
+.logo_f{
+  padding-top: 10px;
+}
+
 @media screen and (max-width:880px) {
     .footer{
         grid-template-columns: 1fr;
