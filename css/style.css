@@ -294,7 +294,7 @@ nav.clearfix a {
 }
 
 nav.clearfix a:active, nav.clearfix a.active {
-	background-color: #fcd00e;
+	background-color: #ffdd00;
 
 }
 nav.clearfix a:hover{
@@ -324,7 +324,7 @@ a#pull{
 @media screen and (max-width:660px) {
 	nav.clearfix a{ 
     height: 60px;
-    /* line-height: 28px; */
+    line-height: 28px;
   }
   
 }
