@@ -486,8 +486,8 @@ a:hover {
 }
 
 .first_screen__texting{
-position: absolute;
-top: 25%;
+position: relative;
+top: 50px;
 left: 0;
 bottom: 0;
 right: 0;
@@ -498,9 +498,6 @@ margin-right: 20px;
     .contacts{
       flex-direction: column;
     }
-    .first_screen__texting{
-      top: 30%;
-    }
     
 
 }
@@ -510,8 +507,9 @@ margin-right: 20px;
   .blur {
     background: rgba(0, 0, 0, 0.5); 
     backdrop-filter: blur(3px);
-    height: 100%;
+    height: 650px;
     width: 50%;
+    position: absolute;
   }
 
 
@@ -548,12 +546,6 @@ margin-right: 20px;
     .contacts__icon img{
       width: 30px;
     }
-    .blur {
-      background: rgba(0, 0, 0, 0.5); 
-      backdrop-filter: blur(3px);
-      height: 100%;
-      width: 60%;
-    }
 }
 
 @media screen and (max-width:900px){
@@ -567,10 +559,7 @@ margin-right: 20px;
     grid-template-columns: 1fr 1fr;
   }
   .blur {
-    background: rgba(0, 0, 0, 0.5); 
     backdrop-filter: blur(7px);
-    height: 100%;
-    width: 100%;
   }
   .blur {
 
@@ -596,9 +585,7 @@ margin-right: 20px;
   .contacts__right{
     flex-direction: column;
   }
-  .first_screen__texting{
-    top: 35%;
-  }
+
 
   .blur{
     width: 100%;
@@ -652,9 +639,6 @@ margin-right: 20px;
         }
   
         }
-
- 
-
 
   @media screen and (max-width: 397px) {
     .contacts__right{
@@ -929,7 +913,7 @@ margin-right: 20px;
 
 .advantages {
     width: auto;
-    height: 1030px;
+    height: 930px;
     flex-shrink: 0;
     margin: 0 auto;
     background: #FFFDF1;
@@ -996,7 +980,6 @@ margin-right: 20px;
   .advantage__general{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    /* gap:20px; */
   }
   .advantages{
     height: 1450px;
@@ -1035,15 +1018,54 @@ margin-right: 20px;
 }
 
 @media screen and (max-width:590px){
-  .advantage__general{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-  .advantages{
-    height: 2530px;
+  .advantage__icon img,
+  .advantage__icon_5 img,
+  .advantage__icon_4 img{
+    width: 120px;
   }
   .advantage__block{
-    height: 250px;
+    width: 200px;
+    height: 170px;
+  }
+  .text-ad{
+    font-size: 14px;
+  }
+  .advantages{
+    height: 1030px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .advantage__icon img,
+  .advantage__icon_5 img,
+  .advantage__icon_4 img{
+    width: 80px;
+  }
+  .advantage__block{
+    width: 160px;
+    height: 120px;
+  }
+  .text-ad{
+    font-size: 10px;
+  }
+  .advantages{
+    height: 775px;
+  }
+}
+
+@media screen and (max-width:380px){
+  .advantage__icon img,
+  .advantage__icon_5 img,
+  .advantage__icon_4 img{
+    width: 60px;
+  }
+  .advantage__block{
+    width: 130px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .advantages{
+    height: 670px;
   }
 }
 
@@ -1117,15 +1139,41 @@ margin: 10px;
 
 }
 
-
-@media screen and (max-width:390px){
-  .lesson__block{
-      height: 3190px;
+@media screen and (max-width:710px){
+  .lessons__struct {
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
   .lessons__arrow{
     rotate: 90deg;
   }
-  
+
+}
+
+@media screen and (max-width:600px){
+
+
+  .lessons_text_title{
+    font-size: 20px;
+  }
+  .lessons__arrow img{
+    width: 50px;
+  }
+  .lessons__image img{
+    width: 300px;
+}
+}
+
+@media screen and (max-width:390px){
+  .lessons__image img{
+    width: 200px;
+}
+.lessons_text_title{
+  font-size: 15px;
+}
+.lessons__arrow img{
+  width: 30px;
+}
 }
 
 /* НАШИ КУРСЫ */
@@ -1311,8 +1359,34 @@ margin: 10px;
   .schedule__rec{
     width: 97%;
     height: 800px;
-  }
+  } 
   
+}
+
+@media screen and (max-width:600px){
+
+  .schedule__rec{
+    width: 97%;
+    height: 800px;
+  } 
+  .rec__block{
+    height: 500px;
+    width: 210px;
+    
+  }
+  .course__iconic img{
+    width: 130px;
+  }
+  .text-p{
+    font-size: 12px;
+  }
+  .course__name,
+  .course__price{
+    font-size: 20px;
+  }
+  .course__age{
+    font-size: 18px;
+  }
   
 }
 
