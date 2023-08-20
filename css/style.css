@@ -1371,14 +1371,14 @@ margin: 10px;
   } 
   .rec__block{
     height: 500px;
-    width: 230px;
+    width: 220px;
     
   }
   .course__iconic img{
     width: 130px;
   }
   .text-p{
-    font-size: 14px;
+    font-size: 16px;
   }
   .course__name,
   .course__price{
