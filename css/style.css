@@ -1308,31 +1308,39 @@ margin: 10px;
     
 }
 .schedule__block{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:1em;
-    justify-content: center;
-    align-content: center;
+    display: flex;
+  
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
-    max-width: 1500px;
 
     position: relative;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin: 10px;
     padding-bottom: 20px;
 }
 
 .schedule__rec {
     border-radius: 40px;
     background: #FFF5AE;
-    width: 600px;
-    height: 700px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
+
+.schedule_general{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .rayevskogo__title {
   display: flex;
   justify-content: center;
@@ -1344,6 +1352,36 @@ margin: 10px;
   justify-content: center;
   text-align: center;
 }
+
+.name_and_time {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 20px;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.day {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content:center
+}
+
+.schedule_list{
+  margin: 10px;
+  padding: 0;
+  padding-left: 1px;
+}
+
 
 
 @media screen and (max-width:1450px){
@@ -1358,7 +1396,7 @@ margin: 10px;
 
   .schedule__rec{
     width: 97%;
-    height: 800px;
+
   } 
   
 }
@@ -1367,7 +1405,7 @@ margin: 10px;
 
   .schedule__rec{
     width: 97%;
-    height: 800px;
+
   } 
   .rec__block{
     height: 500px;
