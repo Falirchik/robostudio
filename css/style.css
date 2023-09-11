@@ -1409,14 +1409,14 @@ margin: 10px;
   } 
   .rec__block{
     height: 500px;
-    width: 220px;
+    width: 230px;
     
   }
   .course__iconic img{
     width: 130px;
   }
   .text-p{
-    font-size: 16px;
+    font-size: 12px;
   }
   .course__name,
   .course__price{
