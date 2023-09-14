@@ -1352,6 +1352,7 @@ margin: 10px;
   display: flex;
   justify-content: center;
   text-align: center;
+  margin: 10px;
 }
 
 .name_and_time {
